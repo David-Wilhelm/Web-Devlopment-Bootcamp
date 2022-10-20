@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me!</title>
+  </head>
+  <body>
+    <img src="https://media-exp1.licdn.com/dms/image/C5603AQFjKi6lQcoRiQ/profile-displayphoto-shrink_200_200/0/1654395817534?e=1671667200&v=beta&t=L4FTVwEZJsgMm_nRBidzMyJWXcAzu7mFJ-zV_qGcXJU" alt="OOPS! Image doesn't exist!" style="width:200px;height:200px;"> <!--https://crop-circle.imageonline.co/ for circular photo crop -->
+
+    <H1>My Contact Information</H1>
+
+    <hr size = "3" color = "black">
+
+    <p>2614 Hunters Moon Lane Matthews, NC 28105</p>
+    <p>Check out my <strong><a href="https://www.linkedin.com/in/david-wilhelm-8bb4311a3/">Linkedin</a></strong>!</p>
+    <p>Email: <strong><a href="17dave.w@gmail.com">17dave.w@gmail.com</a></strong></p>
+
+    <!-- GOING OVER FORMS -->
+    <form action="mailto:17dave.w@gmail.com?subject=Test Sending Email" method="post" enctype="text/plain"> <!-- NOTE: Any mailto will proceed the email you are mailing to with a ?. Any other attribute you want will be followed by an & -->
+      <label>Your Name:</label>                                                                             <!-- Enctype allows the message in the email to not have funny symbols inside. This basically tells the form that the website is in plain text -->
+      <input type="text" name="yourName" value="">
+      <br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value="">
+      <br>
+      <label>Your Message:</label>
+      <br>
+      <textarea name="yourMessage" rows="8" cols="80"></textarea>
+      <br>
+      <label>Would you like to sign up to my email list?</label>
+      <input type="checkbox" name="" value="">
+      <input type="submit" name="">
+      <br>
+
+    </form>
+
+    <hr>
+
+    <h3><a href="index.html">Home</a></h3>
+  </body>
+</html>
